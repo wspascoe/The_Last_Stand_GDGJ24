@@ -168,7 +168,7 @@ MonoBehaviour:
   paddingLeft: 0.5
   paddingRight: 0.5
   paddingTop: 5
-  paddingBottom: 2
+  paddingBottom: 4
 --- !u!50 &-8363487576251369198
 Rigidbody2D:
   serializedVersion: 4
@@ -243,8 +243,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ad6dc5e7a2e35d48ae87cb849a3b6a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 200
+  score: 0
   hitEffect: {fileID: 975312371789005732, guid: b891e167ef77cf141ba34b378037fa78, type: 3}
+  applyCameraShake: 1
+  isPlayer: 1
 --- !u!114 &762419188024335573
 MonoBehaviour:
   m_ObjectHideFlags: 0
